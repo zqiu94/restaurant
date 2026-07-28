@@ -1,4 +1,0 @@
-﻿{
-  "buildCommand": "npm run build || echo 'No build needed'",
-  "outputDirectory": "."
-}

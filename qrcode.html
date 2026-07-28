@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王味觉 - 扫码查看</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+        }
+        .qr-container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #8B4513;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .qr-image {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        .qr-image img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #8B4513;
+            border-radius: 8px;
+        }
+        .info {
+            background: #fff9f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+        .restaurant-name {
+            font-size: 24px;
+            color: #8B4513;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+            .qr-container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="qr-container">
+        <h1>🍽️ 王味觉 🍽️</h1>
+        <p class="restaurant-name">宫廷菜·私房菜·融合菜</p>
+        
+        <div class="qr-image">
+            <img src="qrcode.png" alt="二维码">
+        </div>
+        
+        <p style="font-size: 18px; font-weight: bold; color: #8B4513;">
+            长按识别二维码
+        </p>
+        <p>查看完整菜单、订餐信息、停车指南</p>
+        
+        <div class="info">
+            <p>📱 <strong>扫码即可：</strong></p>
+            <p>✓ 查看全部美食菜单和环境图片</p>
+            <p>✓ 了解停车和交通信息</p>
+            <p>✓ 获取联系方式预约订餐</p>
+            <p>✓ 了解环境设施和服务</p>
+        </div>
+        
+        <p style="margin-top: 25px; color: #999; font-size: 12px;">
+            地址：万科西半岛右岛五区47栋A3-101<br>
+            欢迎光临！
+        </p>
+    </div>
+</body>
+</html>

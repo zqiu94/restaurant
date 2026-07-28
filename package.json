@@ -1,0 +1,12 @@
+﻿{
+  "name": "restaurant-menu",
+  "version": "1.0.0",
+  "description": "王味觉餐厅在线菜单网页",
+  "main": "restaurant.html",
+  "scripts": {
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
